@@ -1,3 +1,5 @@
+@import "map-get-if-exists";
+
 @function type-config($key){
     @return map-get-if-exists($type, $key);
 }
