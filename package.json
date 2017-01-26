@@ -1,0 +1,25 @@
+{
+  "name": "mep-tools.type-config",
+  "version": "1.0.0",
+  "description": "Type Config Function",
+  "main": "stylesheets/_type-config.scss",
+  "eyeglass": {
+    "needs": "^1.0.0",
+    "name": "type-config",
+    "exports": "eyeglass-exports.js"
+  },
+  "keywords": [
+    "eyeglass-module",
+    "sass",
+    "mise-en-place"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mise-en-place/tools.type-config.git"
+  },
+  "author": "Kind",
+  "license": "MIT",
+  "dependencies": {
+    "mep-tools.map-get-if-exists": "github:mise-en-place/tools.map-get-if-exists"
+  }
+}
