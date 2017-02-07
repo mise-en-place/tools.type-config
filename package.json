@@ -2,10 +2,10 @@
   "name": "mep-tools.type-config",
   "version": "1.0.0",
   "description": "Type Config Function",
-  "main": "stylesheets/_type-config.scss",
+  "main": "stylesheets/_tool-type-config.scss",
   "eyeglass": {
     "needs": "^1.0.0",
-    "name": "type-config",
+    "name": "tool-type-config",
     "exports": "eyeglass-exports.js"
   },
   "keywords": [
