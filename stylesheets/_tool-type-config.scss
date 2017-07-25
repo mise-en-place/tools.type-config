@@ -1,4 +1,4 @@
-@import "~mep-tools.map-get-if-exists";
+@import "~@mise-en-place/tools.map-get-if-exists";
 
 @function type-config($key){
     @return map-get-if-exists($type, $key);
